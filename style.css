@@ -21,7 +21,7 @@ body {
 @keyframes cardEnter {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(80px);
     }
 
     to {
@@ -108,7 +108,7 @@ body {
 }
 
 .primary_btn:active {
-    transform: scale(0.7);
+    transform: scale(0.95);
 }
 
 .secondary_btn{
