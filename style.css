@@ -8,6 +8,10 @@ body {
     background-image: linear-gradient(#FFFFFF, #EBEBEB);
 }
 
+.card_contain{
+    margin: auto 0px;
+}
+
 .card{
     background-color: #fafafa;
     border-radius: 32px;
@@ -33,14 +37,11 @@ body {
     }
 }
 
-.card:hover{
-    box-shadow: #111111 20%;
-}
-
 .hero {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
     align-items: center;
 }
 
@@ -78,7 +79,7 @@ body {
 
 .heading {
     font-weight: 500;
-    font-size: 1.75rem;
+    font-size: 28px;
     text-align: center;
     margin: 0;
 }
@@ -86,7 +87,7 @@ body {
 .description {
     font-weight: 400;
     color: #9e9e9e;
-    font-size: 1.125rem;
+    font-size: 18px;
     text-align: center;
     margin: 0;
 }
@@ -119,7 +120,7 @@ body {
     width: 100%;
     border: none;
     padding: 18px 32px;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 500;
     color: #9e9e9e;
     cursor: pointer;
@@ -135,4 +136,23 @@ body {
     display: grid;
     row-gap: 0px;
     width: 100%;
+}
+
+.links_wrapper{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 24px;
+    gap: 48px;
+}
+
+.links{
+    color: #9e9e9e;
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition:color 0.2s ease-in;
+}
+
+.links:hover{
+    color: #707070;
 }
